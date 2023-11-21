@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        article {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #3498db;
+            cursor: pointer;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .collapsed {
+            display: none;
+        }
+    </style>
+    <title>India's G-20 Leadership Blog</title>
+</head>
+<body>
+    <header>
+        <h1>India's G-20 Leadership: Global Cooperation and Summit Takeaways</h1>
+    </header>
+    <article>
+        <section>
+            <h2>Introduction</h2>
+            <p>Welcome to our blogging site where we delve into India's role as the host nation in the G-20 summit. The G-20 is a platform for major economies to discuss and coordinate on global economic policies. Let's explore the three key areas where India sought global cooperation and unravel the major takeaways from this significant summit.</p>
+        </section>
+
+        <section>
+            <h2>1. Climate Action and Sustainable Development</h2>
+            <p>India, as the host nation, emphasized the need for collaborative efforts in addressing climate change and promoting sustainable development. The country proposed a comprehensive approach, emphasizing renewable energy, afforestation, and sustainable urban planning. India's commitment to these initiatives aimed to set an example for other nations and foster global cooperation in combating climate challenges.</p>
+        </section>
+
+        <section>
+            <h2>2. Digital Transformation and Technology Governance</h2>
+            <p>In an increasingly interconnected world, India highlighted the importance of digital transformation and the responsible governance of technology. The nation proposed discussions on creating international norms for cybersecurity, data privacy, and the ethical use of artificial intelligence. By fostering global cooperation in these areas, India aimed to ensure a secure and inclusive digital future for all.</p>
+        </section>
+
+        <section>
+            <h2>3. Inclusive Global Health Initiatives</h2>
+            <p>The COVID-19 pandemic underscored the importance of global health cooperation. India, recognizing this urgency, proposed initiatives for equitable vaccine distribution, strengthening healthcare systems, and fostering research collaboration. By emphasizing inclusive health policies, India sought to unite G-20 nations in a collective response to current and future health challenges.</p>
+        </section>
+
+        <section>
+            <h2>Major Takeaways from the G-20 Summit</h2>
+            <ul>
+                <li><strong>Multilateral Cooperation:</strong> The summit reinforced the importance of multilateralism in addressing global challenges. India played a pivotal role in promoting dialogue and cooperation among diverse nations, emphasizing the interconnectedness of their economies and shared responsibilities.</li>
+                <li><strong>Economic Recovery:</strong> G-20 leaders discussed strategies for post-pandemic economic recovery. India advocated for inclusive growth and sustainable economic policies, underscoring the need to address disparities and support developing nations in their recovery efforts.</li>
+                <li><strong>Commitment to Global Stability:</strong> The summit concluded with a commitment to global stability and cooperation. Leaders acknowledged the importance of working collectively to build a more resilient and interconnected world, recognizing that no single nation can tackle complex global challenges alone.</li>
+            </ul>
+        </section>
+    </article>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const sections = document.querySelectorAll('section');
+
+            sections.forEach(section => {
+                const heading = section.querySelector('h2');
+
+                if (heading) {
+                    heading.addEventListener('click', function () {
+                        section.classList.toggle('collapsed');
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
